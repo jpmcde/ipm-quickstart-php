@@ -1,0 +1,5 @@
+<?php
+$TWILIO_ACCOUNT_SID = getenv("ACCOUNT_SID");
+$TWILIO_IPM_SERVICE_SID = getenv("IPM_SERVICE_SID");
+$TWILIO_API_KEY = getenv("API_KEY");
+$TWILIO_API_SECRET = getenv("API_SECRET"); ?>
