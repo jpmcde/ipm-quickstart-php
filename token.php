@@ -4,10 +4,10 @@ require_once('./randos.php');
 require_once('./config.php');
 
 // An identifier for your app - can be anything you'd like
-$appName = 'TwilioChatDemo';
+$appName = 'Dresplayground';
 
 // choose a random username for the connecting user
-$identity = randomUsername();
+$identity = $_GET['user'];
 
 // A device ID is passed as a query string parameter to this script
 $deviceId = $_GET['device'];
